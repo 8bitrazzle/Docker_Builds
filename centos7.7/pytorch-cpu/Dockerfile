@@ -5,6 +5,9 @@ ENV CONDA_ENV_NAME jupyterlab
 
 RUN yum update -y && yum install -y \
     wget \
+    libSM \
+    libXrender \
+    libXext \
     curl \
     git  
          
