@@ -39,6 +39,7 @@ RUN /bin/bash -c "source ~/.bashrc && pip --no-cache-dir install \
     cython \
     numpy \
     pandas \
+    tqdm \
     pillow==6.2.0"
 
 RUN yum clean all && \
